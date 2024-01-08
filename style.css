@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col{
+	width:33.3%;
+	padding-right:3px;
+	padding-bottom:5px;
+}
+ img{
+max-width:100%;
+vertical-align:middle;
+height:auto;
+}
+.gal-img{
+	position:relative;
+	overflow:hidden;
+}
+.gal-img:hover::before{
+content:"";
+background:linear-gradient(#20202042,#202020ad);
+position:absolute;
+width:100%;
+height:100vh;
+opacity:1;
+}
+
+	
+	
